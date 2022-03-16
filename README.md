@@ -19,3 +19,14 @@ To force reinstall the most recent PySDK version without reinstalling all depend
 python -m pip install degirum --upgrade --no-deps --force-reinstall --extra-index-url https://DeGirum.github.io/simple
 ```
 
+## Quick Start
+```python
+import degirum as dg
+
+image_url="https://raw.githubusercontent.com/degirum/DeGirum.github.io/master/images/samples/cat_640.jpg"
+zoo = dg.connect_model_zoo()
+mobilenet_ssd = zoo.load_model("ssd_mobilenet_v2--300x300_quant_n2x_orca_1")
+result = mobilenet_ssd(image_url)
+print(result)
+result.image_overlay.show()
+```
