@@ -25,7 +25,7 @@ import degirum as dg
 
 image_url="https://raw.githubusercontent.com/degirum/DeGirum.github.io/master/images/samples/cat_640.jpg"
 zoo = dg.connect_model_zoo()
-mobilenet_ssd = zoo.load_model("ssd_mobilenet_v2--300x300_quant_n2x_orca_1")
+mobilenet_ssd = zoo.load_model("ssd_mobilenet_v2--300x300_quant_n2x_cpu_1")
 result = mobilenet_ssd(image_url)
 print(result)
 result.image_overlay.show()
