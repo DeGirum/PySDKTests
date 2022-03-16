@@ -3,9 +3,7 @@ DeGirum PySDK Examples
 
 ## Installation
 
-Prerequisites: 
-1. Python 3.8 should be installed in your system and configured to be the default Python installation or
-2. Virtual environment with Python 3.8
+It is recommended to install the degirum package inside a virtual environment. Currently, Python3.8 is supported. Other versions will be supported in future.
 
 
 To install DeGirum PySDK from the DeGirum index server use the following command:
