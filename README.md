@@ -21,7 +21,7 @@ python -m pip install degirum --upgrade --no-deps --force-reinstall --extra-inde
 ```python
 import degirum as dg
 
-image_url="https://raw.githubusercontent.com/degirum/DeGirum.github.io/master/images/samples/cat_640.jpg"
+image_url="https://degirum.github.io/images/samples/TwoCats.jpg"
 zoo = dg.connect_model_zoo()
 mobilenet_ssd = zoo.load_model("mobilenet_v2_ssd_coco--300x300_quant_n2x_orca_1")
 result = mobilenet_ssd(image_url)
