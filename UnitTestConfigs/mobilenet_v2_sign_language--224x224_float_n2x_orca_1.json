@@ -1,0 +1,23 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "mobilenet_v2_sign_language--224x224_float_n2x_orca_1"      
+    }
+  ],
+  "TEST_IMAGE":
+  [
+    {
+      "InputPath": "./images/HandSign.png"
+
+    }
+  ],
+  "RESULTS":
+  [
+    {"category_id": 10, "label": "k", "score": 0.9296422004699707},
+    {"category_id": 22, "label": "w", "score": 0.05494105443358421},
+    {"category_id": 7, "label": "h", "score": 0.012744723819196224},
+    {"category_id": 21, "label": "v", "score": 0.002671622671186924},
+    {"category_id": 17, "label": "r", "score": 2.2273798094829544e-07}
+  ]
+}

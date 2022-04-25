@@ -1,0 +1,22 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "efficientnet_es_imagenet--224x224_quant_n2x_orca_1"      
+    }
+  ],
+  "TEST_IMAGE":
+  [
+    {
+      "InputPath": "./images/TwoCats.jpg"   
+    }
+  ],
+  "RESULTS":
+  [ 
+    {"category_id": 286, "label": "Egyptian cat", "score": 0.203125},
+    {"category_id": 283, "label": "tiger cat", "score": 0.11328125},
+    {"category_id": 282, "label": "tabby, tabby cat", "score": 0.08984375},
+    {"category_id": 280, "label": "Arctic fox, white fox, Alopex lagopus", "score": 0.015625},
+    {"category_id": 357, "label": "weasel", "score": 0.015625}
+  ]
+}

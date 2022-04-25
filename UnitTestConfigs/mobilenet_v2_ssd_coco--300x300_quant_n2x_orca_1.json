@@ -1,0 +1,30 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "mobilenet_v2_ssd_coco--300x300_quant_n2x_orca_1"      
+    }
+  ],
+  "TEST_IMAGE":
+  [
+    {
+      "InputPath": "./images/TwoCats.jpg"   
+
+    }
+  ],
+  "RESULTS":
+  [
+    {
+      "bbox": [228.2849178314209, 34.95021942257881, 370.86652886867523, 396.5525736808777],
+      "category_id": 16,
+      "label": "cat",
+      "score": 0.9153130650520325
+    },
+    {
+      "bbox": [73.67298629879951, 34.00069499015808, 248.47459995746613, 347.6342500448227],
+      "category_id": 16,
+      "label": "cat",
+      "score": 0.841070294380188
+    }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "yolo_v5m_coco--512x512_pruned_quant_n2x_orca_1"      
+    }
+  ],
+  "TEST_IMAGE":
+  [
+    {
+      "InputPath": "./images/TwoCats.jpg"   
+
+    }
+  ],
+  "RESULTS":
+  [
+    {
+      "bbox": [79.80934372544289, 37.86806094646454, 248.35195863246918, 332.5087151527405],
+      "category_id": 15,
+      "label": "cat",
+      "score": 0.7171032428741455
+    },
+    {
+      "bbox": [228.15608096122742, 26.552240431308746, 376.7893685102463, 401.8209707736969],
+      "category_id": 15,
+      "label": "cat",
+      "score": 0.7035344243049622
+    }
+  ]
+}

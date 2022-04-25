@@ -1,0 +1,23 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "mobilenet_v2_generic_object--224x224_quant_n2x_orca_1"      
+    }
+  ],
+  "TEST_IMAGE":
+  [
+    {
+      "InputPath": "./images/TwoCats.jpg"   
+
+    }
+  ],
+  "RESULTS":
+  [
+    {"category_id": 137, "label": "Cat", "score": 0.8828125},
+    {"category_id": 324, "label": "Lynx", "score": 0.00390625},
+    {"category_id": 215, "label": "Slow cooker", "score": 0},
+    {"category_id": 214, "label": "Vase", "score": 0},
+    {"category_id": 213, "label": "Volleyball", "score": 0}
+  ]
+}

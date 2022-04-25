@@ -1,0 +1,22 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "mobilenet_v2_imagenet--224x224_quant_n2x_cpu_1"      
+    }
+  ],
+  "TEST_IMAGE":
+  [
+    {
+      "InputPath": "./images/TwoCats.jpg"   
+    }
+  ],
+  "RESULTS":
+  [
+    {"category_id": 286, "label": "Egyptian cat", "score": 0.671875},
+    {"category_id": 282, "label": "tabby, tabby cat", "score": 0.09375},
+    {"category_id": 283, "label": "tiger cat", "score": 0.0859375},
+    {"category_id": 540, "label": "doormat, welcome mat", "score": 0.02734375},
+    {"category_id": 288, "label": "lynx, catamount", "score": 0.0078125}
+  ]
+}

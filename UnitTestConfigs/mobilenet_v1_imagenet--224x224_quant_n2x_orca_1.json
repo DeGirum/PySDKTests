@@ -1,0 +1,22 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "mobilenet_v1_imagenet--224x224_quant_n2x_cpu_1"      
+    }
+  ],
+  "TEST_IMAGE":
+  [
+    {
+      "InputPath": "./images/TwoCats.jpg"   
+    }
+  ],
+  "RESULTS":
+  [
+    {"category_id": 282, "label": "tabby, tabby cat", "score": 0.671875},
+    {"category_id": 286, "label": "Egyptian cat", "score": 0.15234375},
+    {"category_id": 280, "label": "Arctic fox, white fox, Alopex lagopus", "score": 0.046875},
+    {"category_id": 464, "label": "bucket, pail", "score": 0.0390625},
+    {"category_id": 283, "label": "tiger cat", "score": 0.03515625}
+  ]
+}

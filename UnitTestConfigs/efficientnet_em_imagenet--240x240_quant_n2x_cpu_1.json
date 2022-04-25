@@ -1,0 +1,22 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "efficientnet_em_imagenet--240x240_quant_n2x_cpu_1"      
+    }
+  ],
+  "TEST_IMAGE":
+  [
+    {
+      "InputPath": "./images/TwoCats.jpg"   
+    }
+  ],
+  "RESULTS":
+  [
+    {"category_id": 282, "label": "tabby, tabby cat", "score": 0.2109375},
+    {"category_id": 286, "label": "Egyptian cat", "score": 0.15234375},
+    {"category_id": 283, "label": "tiger cat", "score": 0.0703125},
+    {"category_id": 357, "label": "weasel", "score": 0.02734375},
+    {"category_id": 739, "label": "pot, flowerpot", "score": 0.01171875}
+  ]
+}

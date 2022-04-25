@@ -1,0 +1,30 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "mobilenet_v1_posenet_coco_keypoints--353x481_quant_n2x_cpu_1"      
+    }
+  ],
+  "TEST_IMAGE":
+  [
+    {
+      "InputPath": "./images/ThreePersons.jpg"   
+
+    }
+  ],
+  "RESULTS":
+  [
+    {
+    "bbox": [551.5036582946777, 58.03321886062623, 1153.4908533096313, 835.4583053588867],
+    "category_id": 16,
+    "label": "cat",
+    "score": 0.9915122389793396
+    },
+    {
+    "bbox": [74.08962696790695, 141.88028860092163, 602.0673751831055, 823.7272529602051],
+    "category_id": 16,
+    "label": "cat",
+    "score": 0.9892556667327881
+    }
+  ]  
+}

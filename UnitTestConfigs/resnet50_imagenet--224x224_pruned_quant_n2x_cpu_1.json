@@ -1,0 +1,22 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "resnet50_imagenet--224x224_pruned_quant_n2x_cpu_1"      
+    }
+  ],
+  "TEST_IMAGE":
+  [
+    {
+      "InputPath": "./images/TwoCats.jpg"   
+    }
+  ],
+  "RESULTS":
+  [
+    {"category_id": 282, "label": "tiger cat", "score": 0.1681409627199173},
+    {"category_id": 281, "label": "tabby, tabby cat","score": 0.14676961302757263},
+    {"category_id": 285, "label": "Egyptian cat", "score": 0.06492490321397781},
+    {"category_id": 463, "label": "bucket, pail", "score": 0.037693049758672714},
+    {"category_id": 728, "label": "plastic bag", "score": 0.03290211781859398}
+  ]
+}
