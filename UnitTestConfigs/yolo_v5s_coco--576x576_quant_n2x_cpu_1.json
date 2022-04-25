@@ -1,0 +1,24 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "yolo_v5s_coco--576x576_quant_n2x_cpu_1"      
+    }
+  ],
+  "TEST_IMAGE":
+  [
+    {
+      "InputPath": "./images/TwoCats.jpg"   
+
+    }
+  ],
+  "RESULTS":
+  [
+    {
+        "bbox": [226.1627235412598, 41.406225085258484, 375.0975586573283, 392.6523482004801],
+        "category_id": 15,
+        "label": "cat",
+        "score": 0.47661030292510986
+    }
+  ]
+}

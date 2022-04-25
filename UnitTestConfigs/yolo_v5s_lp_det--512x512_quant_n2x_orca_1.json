@@ -1,0 +1,27 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "yolo_v5s_lp_det--512x512_quant_n2x_orca_1"      
+    }
+  ],
+  "TEST_IMAGE":
+  [
+    {
+      "InputPath": "./images/Car.jpg"   
+
+    }
+  ],
+  "RESULTS":
+  [
+    {
+        "bbox": [596.4546203613281,
+                592.511667530439,
+                688.8864135742188,
+                634.5145489430568],
+        "category_id": 0,
+        "label": "license plate",
+        "score": 0.8288854360580444
+    }
+  ]
+}

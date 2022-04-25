@@ -1,0 +1,19 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "yolo_v5s_lp_ocr--256x256_quant_n2x_cpu_1"      
+    }
+  ],
+  "TEST_IMAGE":
+  [
+    {
+      "InputPath": "./images/LicensePlate.jpg"   
+
+    }
+  ],
+  "RESULTS":
+  [
+    {"label": "4XXF538", "score": 0.8910601185460054}
+  ]
+}
