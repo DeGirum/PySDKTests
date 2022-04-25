@@ -1,15 +1,8 @@
 {
-  "DATASET_PARAMETERS": 
-  [
-      {
-        "GroundTruthAnnotationsPath": "http://192.168.0.16:8084/coco/labels.json",
-        "ImageFolderPath": "http://192.168.0.16:8084/coco/data/"
-      }
-  ],  
   "MODEL_PARAMETERS": 
   [
     {
-      "ModelName": "mobiledet_coco--320x320_quant_n2x_orca_1"      
+      "ModelName": "mobilenet_v2_ssd_coco--300x300_quant_n2x_orca_1"      
     }
   ],
   "PRE_PROCESS": 
@@ -34,8 +27,8 @@
   ],
   "Results":
   [
-      {
-      "MAPArray": [0.30330056, 0.48349204, 0.3178466 , 0.05197082, 0.28767762, 0.61627529, 0.27552033, 0.41471304, 0.42879599, 0.12085017, 0.46705475, 0.76406159]
-      }
+    {
+      "MAPArray": [0.31642751, 0.48783749, 0.33687265, 0.12605356, 0.35648698, 0.49669389, 0.28125346, 0.44173611, 0.46406073, 0.21222082, 0.52375486, 0.68571068]
+    }
   ]  
 }

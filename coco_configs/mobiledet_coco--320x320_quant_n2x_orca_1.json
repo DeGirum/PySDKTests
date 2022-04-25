@@ -1,15 +1,8 @@
 {
-  "DATASET_PARAMETERS": 
-  [
-      {
-        "GroundTruthAnnotationsPath": "http://192.168.0.16:8084/coco/labels.json",
-        "ImageFolderPath": "http://192.168.0.16:8084/coco/data/"
-      }
-  ],  
   "MODEL_PARAMETERS": 
   [
     {
-      "ModelName": "efficientdet_lite1_coco--384x384_quant_n2x_orca_1"      
+      "ModelName": "mobiledet_coco--320x320_quant_n2x_orca_1"      
     }
   ],
   "PRE_PROCESS": 
