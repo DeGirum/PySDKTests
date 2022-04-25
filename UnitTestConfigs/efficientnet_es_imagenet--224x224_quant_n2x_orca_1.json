@@ -8,7 +8,7 @@
   "TEST_IMAGE":
   [
     {
-      "InputPath": "./images/TwoCats.jpg"   
+      "InputPath": "./images/TwoCats.bmp"   
     }
   ],
   "RESULTS":
