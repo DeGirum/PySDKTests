@@ -1,0 +1,35 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "yolo_v5s_bird_det--512x512_quant_n2x_orca_1"      
+    }
+  ],
+  "PRE_PROCESS": 
+  [
+    {
+      "ImageBackend": "opencv",
+      "InputResizeMethod": "bilinear",
+      "InputPadMethod": "letterbox"
+    }
+  ],
+  "POST_PROCESS": 
+  [
+    {
+      "OutputConfThreshold": 0.001,
+      "MaxDetections": 100,
+      "OutputNMSThreshold": 0.6,
+      "MaxDetectionsPerClass": 20,
+      "MaxClassesPerDetection": 1,
+      "UseRegularNMS": true,
+      "ClassMap": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]     
+    }
+  ],
+  "Results":
+  [
+    {
+      "MAPArray": [4.43270034e-01, 6.41040760e-01, 4.96259715e-01, 3.92896433e-04, 1.81857411e-01, 4.89826168e-01, 
+      		   4.89364356e-01, 6.17380331e-01, 6.21761715e-01, 7.57575758e-03, 3.45081585e-01, 6.68770776e-01]
+    }
+  ]  
+}

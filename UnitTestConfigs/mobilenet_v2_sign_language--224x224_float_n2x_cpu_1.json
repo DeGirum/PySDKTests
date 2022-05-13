@@ -14,10 +14,11 @@
   ],
   "RESULTS":
   [
-    {"category_id": 10, "label": "k", "score": 0.9296402931213379},
-    {"category_id": 22, "label": "w", "score": 0.05494198948144913},
-    {"category_id": 7, "label": "h", "score": 0.012745523825287819},
-    {"category_id": 21, "label": "v", "score": 0.0026718159206211567},
-    {"category_id": 17, "label": "r", "score": 2.2275536082361214e-07}
+     {"category_id": 10, "label": "k", "score": 0.9756960868835449},
+ {"category_id": 7, "label": "h", "score": 0.009821007028222084},
+ {"category_id": 21, "label": "v", "score": 0.008861111477017403},
+ {"category_id": 22, "label": "w", "score": 0.004789702594280243},
+ {"category_id": 17,"label": "r", "score": 0.00044762209290638566}
+
   ]
 }

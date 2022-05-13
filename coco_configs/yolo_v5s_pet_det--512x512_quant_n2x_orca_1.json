@@ -1,0 +1,34 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "yolo_v5s_pet_det--512x512_quant_n2x_orca_1"      
+    }
+  ],
+  "PRE_PROCESS": 
+  [
+    {
+      "ImageBackend": "opencv",
+      "InputResizeMethod": "bilinear",
+      "InputPadMethod": "letterbox"
+    }
+  ],
+  "POST_PROCESS": 
+  [
+    {
+      "OutputConfThreshold": 0.001,
+      "MaxDetections": 100,
+      "OutputNMSThreshold": 0.6,
+      "MaxDetectionsPerClass": 20,
+      "MaxClassesPerDetection": 1,
+      "UseRegularNMS": true,
+      "ClassMap": [1, 2, 3]     
+    }
+  ],
+  "Results":
+  [
+    {
+      "MAPArray": [0.6951639 , 0.91618383, 0.7996779 , 0.03378713, 0.26727579, 0.70185496, 0.68244933, 0.79139851, 0.7928609 , 			   0.0625, 0.45789474, 0.79645704]
+    }
+  ]  
+}

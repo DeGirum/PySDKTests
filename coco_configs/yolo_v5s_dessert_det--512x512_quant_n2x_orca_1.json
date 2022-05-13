@@ -1,0 +1,35 @@
+{
+  "MODEL_PARAMETERS": 
+  [
+    {
+      "ModelName": "yolo_v5s_dessert_det--512x512_quant_n2x_orca_1"      
+    }
+  ],
+  "PRE_PROCESS": 
+  [
+    {
+      "ImageBackend": "opencv",
+      "InputResizeMethod": "bilinear",
+      "InputPadMethod": "letterbox"
+    }
+  ],
+  "POST_PROCESS": 
+  [
+    {
+      "OutputConfThreshold": 0.001,
+      "MaxDetections": 100,
+      "OutputNMSThreshold": 0.6,
+      "MaxDetectionsPerClass": 20,
+      "MaxClassesPerDetection": 1,
+      "UseRegularNMS": true,
+      "ClassMap": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]     
+    }
+  ],
+  "Results":
+  [
+    {
+      "MAPArray": [0.2194237 , 0.33316722, 0.2420742 , 0.0, 0.02728588, 0.23791874, 0.29235954, 
+      		    0.41464104, 0.41900383, 0.0, 0.0580725 , 0.44493893]
+    }
+  ]  
+}
